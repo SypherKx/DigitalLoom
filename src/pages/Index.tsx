@@ -10,9 +10,7 @@ const Index = () => {
   const { scrollY } = useScroll();
   const smoothScrollY = useSpring(scrollY, { stiffness: 100, damping: 30, restDelta: 0.001 });
 
-  // 3-D scene moves fastest (pushed away soonest)
-  const heroY = useTransform(smoothScrollY, [0, 1000], [0, 350]);
-  const heroOpacity = useTransform(smoothScrollY, [0, 800], [1, 0.2]);
+
 
   // Each text layer has a distinct speed for true parallax depth
   // The larger the negative value, the faster it moves UP when scrolling down.
@@ -58,21 +56,18 @@ const Index = () => {
 
   return (
     <main className="relative min-h-screen overflow-x-hidden">
+      {/* FIXED 3D BACKGROUND */}
+      <div className="fixed inset-0 z-0">
+        <Suspense fallback={<div className="w-full h-full bg-gradient-radial-glow" />}>
+          <HeroScene />
+        </Suspense>
+      </div>
+
       <Nav />
 
       {/* HERO */}
       <section className="relative min-h-screen flex items-center pt-24 pb-20">
         <div className="absolute inset-0 grid-blueprint opacity-20 pointer-events-none" />
-
-        {/* 3D Scene with parallax */}
-        <motion.div
-          style={{ y: heroY, opacity: heroOpacity }}
-          className="absolute inset-0 z-0 will-change-transform"
-        >
-          <Suspense fallback={<div className="w-full h-full bg-gradient-radial-glow" />}>
-            <HeroScene />
-          </Suspense>
-        </motion.div>
 
         {/* Top status bar */}
         <div className="absolute top-24 inset-x-0 z-10 pointer-events-none">
