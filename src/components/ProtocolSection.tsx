@@ -90,7 +90,7 @@ export default function ProtocolSection() {
                       </div>
                     </div>
 
-                    <div className="flex-1">
+                    <div className="flex-1 min-w-0">
                       <h3 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold mb-3 tracking-tight">
                         {step.title}
                       </h3>
