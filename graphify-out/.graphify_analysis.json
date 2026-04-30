@@ -1,0 +1,367 @@
+{
+  "communities": {
+    "0": [
+      "pages_index_tick",
+      "pages_notfound_notfound",
+      "src_app_app",
+      "src_app_tsx",
+      "src_main_tsx",
+      "src_pages_index_tsx",
+      "src_pages_notfound_tsx"
+    ],
+    "1": [
+      "src_components_ui_pagination_tsx",
+      "ui_pagination_pagination",
+      "ui_pagination_paginationellipsis",
+      "ui_pagination_paginationlink",
+      "ui_pagination_paginationnext",
+      "ui_pagination_paginationprevious"
+    ],
+    "2": [
+      "hooks_use_toast_addtoremovequeue",
+      "hooks_use_toast_dispatch",
+      "hooks_use_toast_genid",
+      "hooks_use_toast_reducer",
+      "hooks_use_toast_toast",
+      "src_hooks_use_toast_ts"
+    ],
+    "3": [
+      "src_components_ui_drawer_tsx",
+      "ui_drawer_drawer",
+      "ui_drawer_drawerfooter",
+      "ui_drawer_drawerheader"
+    ],
+    "4": [
+      "src_components_ui_sidebar_tsx",
+      "ui_sidebar_cn",
+      "ui_sidebar_handlekeydown",
+      "ui_sidebar_usesidebar"
+    ],
+    "5": [
+      "components_heroscene_lerp",
+      "components_heroscene_particles",
+      "src_components_heroscene_tsx"
+    ],
+    "6": [
+      "components_nav_loommark",
+      "components_nav_nav",
+      "src_components_nav_tsx"
+    ],
+    "7": [
+      "src_components_ui_breadcrumb_tsx",
+      "ui_breadcrumb_breadcrumbellipsis",
+      "ui_breadcrumb_breadcrumbseparator"
+    ],
+    "8": [
+      "hooks_use_toast_usetoast",
+      "src_components_ui_toaster_tsx",
+      "ui_toaster_toaster"
+    ],
+    "9": [
+      "components_productssection_productssection",
+      "src_components_productssection_tsx"
+    ],
+    "10": [
+      "components_protocolsection_protocolsection",
+      "src_components_protocolsection_tsx"
+    ],
+    "11": [
+      "src_components_ui_calendar_tsx",
+      "ui_calendar_calendar"
+    ],
+    "12": [
+      "src_components_ui_carousel_tsx",
+      "ui_carousel_usecarousel"
+    ],
+    "13": [
+      "src_components_ui_chart_tsx",
+      "ui_chart_usechart"
+    ],
+    "14": [
+      "src_components_ui_form_tsx",
+      "ui_form_useformfield"
+    ],
+    "15": [
+      "src_components_ui_resizable_tsx",
+      "ui_resizable_resizablepanelgroup"
+    ],
+    "16": [
+      "src_components_ui_sonner_tsx",
+      "ui_sonner_toaster"
+    ],
+    "17": [
+      "hooks_use_mobile_useismobile",
+      "src_hooks_use_mobile_tsx"
+    ],
+    "18": [
+      "lib_utils_cn",
+      "src_lib_utils_ts"
+    ],
+    "19": [
+      "eslint_config_js"
+    ],
+    "20": [
+      "postcss_config_js"
+    ],
+    "21": [
+      "tailwind_config_ts"
+    ],
+    "22": [
+      "vite_config_ts"
+    ],
+    "23": [
+      "vitest_config_ts"
+    ],
+    "24": [
+      "src_vite_env_d_ts"
+    ],
+    "25": [
+      "src_components_navlink_tsx"
+    ],
+    "26": [
+      "src_components_ui_accordion_tsx"
+    ],
+    "27": [
+      "src_components_ui_alert_dialog_tsx"
+    ],
+    "28": [
+      "src_components_ui_alert_tsx"
+    ],
+    "29": [
+      "src_components_ui_aspect_ratio_tsx"
+    ],
+    "30": [
+      "src_components_ui_avatar_tsx"
+    ],
+    "31": [
+      "src_components_ui_badge_tsx"
+    ],
+    "32": [
+      "src_components_ui_button_tsx"
+    ],
+    "33": [
+      "src_components_ui_card_tsx"
+    ],
+    "34": [
+      "src_components_ui_checkbox_tsx"
+    ],
+    "35": [
+      "src_components_ui_collapsible_tsx"
+    ],
+    "36": [
+      "src_components_ui_command_tsx"
+    ],
+    "37": [
+      "src_components_ui_context_menu_tsx"
+    ],
+    "38": [
+      "src_components_ui_dialog_tsx"
+    ],
+    "39": [
+      "src_components_ui_dropdown_menu_tsx"
+    ],
+    "40": [
+      "src_components_ui_hover_card_tsx"
+    ],
+    "41": [
+      "src_components_ui_input_otp_tsx"
+    ],
+    "42": [
+      "src_components_ui_input_tsx"
+    ],
+    "43": [
+      "src_components_ui_label_tsx"
+    ],
+    "44": [
+      "src_components_ui_menubar_tsx"
+    ],
+    "45": [
+      "src_components_ui_navigation_menu_tsx"
+    ],
+    "46": [
+      "src_components_ui_popover_tsx"
+    ],
+    "47": [
+      "src_components_ui_progress_tsx"
+    ],
+    "48": [
+      "src_components_ui_radio_group_tsx"
+    ],
+    "49": [
+      "src_components_ui_scroll_area_tsx"
+    ],
+    "50": [
+      "src_components_ui_select_tsx"
+    ],
+    "51": [
+      "src_components_ui_separator_tsx"
+    ],
+    "52": [
+      "src_components_ui_sheet_tsx"
+    ],
+    "53": [
+      "src_components_ui_skeleton_tsx"
+    ],
+    "54": [
+      "src_components_ui_slider_tsx"
+    ],
+    "55": [
+      "src_components_ui_switch_tsx"
+    ],
+    "56": [
+      "src_components_ui_table_tsx"
+    ],
+    "57": [
+      "src_components_ui_tabs_tsx"
+    ],
+    "58": [
+      "src_components_ui_textarea_tsx"
+    ],
+    "59": [
+      "src_components_ui_toast_tsx"
+    ],
+    "60": [
+      "src_components_ui_toggle_group_tsx"
+    ],
+    "61": [
+      "src_components_ui_toggle_tsx"
+    ],
+    "62": [
+      "src_components_ui_tooltip_tsx"
+    ],
+    "63": [
+      "src_components_ui_use_toast_ts"
+    ],
+    "64": [
+      "src_test_example_test_ts"
+    ],
+    "65": [
+      "src_test_setup_ts"
+    ]
+  },
+  "cohesion": {
+    "0": 0.29,
+    "1": 0.33,
+    "2": 0.6,
+    "3": 0.5,
+    "4": 0.5,
+    "5": 0.67,
+    "6": 0.67,
+    "7": 0.67,
+    "8": 0.67,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0,
+    "47": 1.0,
+    "48": 1.0,
+    "49": 1.0,
+    "50": 1.0,
+    "51": 1.0,
+    "52": 1.0,
+    "53": 1.0,
+    "54": 1.0,
+    "55": 1.0,
+    "56": 1.0,
+    "57": 1.0,
+    "58": 1.0,
+    "59": 1.0,
+    "60": 1.0,
+    "61": 1.0,
+    "62": 1.0,
+    "63": 1.0,
+    "64": 1.0,
+    "65": 1.0
+  },
+  "gods": [
+    {
+      "id": "hooks_use_toast_reducer",
+      "label": "reducer()",
+      "degree": 3
+    },
+    {
+      "id": "hooks_use_toast_dispatch",
+      "label": "dispatch()",
+      "degree": 3
+    },
+    {
+      "id": "hooks_use_toast_toast",
+      "label": "toast()",
+      "degree": 3
+    },
+    {
+      "id": "ui_toaster_toaster",
+      "label": "Toaster()",
+      "degree": 2
+    },
+    {
+      "id": "hooks_use_toast_genid",
+      "label": "genId()",
+      "degree": 2
+    },
+    {
+      "id": "hooks_use_toast_addtoremovequeue",
+      "label": "addToRemoveQueue()",
+      "degree": 2
+    },
+    {
+      "id": "hooks_use_toast_usetoast",
+      "label": "useToast()",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Toaster()",
+      "target": "useToast()",
+      "source_files": [
+        "src\\components\\ui\\toaster.tsx",
+        "src\\hooks\\use-toast.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `useToast()` connect `Community 8` to `Community 2`?",
+      "why": "High betweenness centrality (0.002) - this node is a cross-community bridge."
+    }
+  ]
+}
