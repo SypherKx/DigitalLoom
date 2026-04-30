@@ -142,23 +142,23 @@ const Index = () => {
               </button>
             </motion.div>
           </div>
-
-          {/* Bottom telemetry */}
-          <motion.div
-            style={{ y: telemetryY }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            className="absolute bottom-8 left-0 right-0 px-6 will-change-transform"
-          >
-            <div className="container flex flex-wrap items-end justify-between gap-6 font-mono text-[10px] tracking-[0.2em] text-muted-foreground border-t border-border pt-4">
-              <Telemetry label="AGENTS_ONLINE" value="2,847" />
-              <Telemetry label="UNITS_FORGED" value="184,302" />
-              <Telemetry label="MATERIALS" value="42" />
-              <Telemetry label="LATENCY" value="12ms" highlight />
-            </div>
-          </motion.div>
         </div>
+
+        {/* Bottom telemetry */}
+        <motion.div
+          style={{ y: telemetryY }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1 }}
+          className="absolute bottom-8 left-0 right-0 px-6 z-10 will-change-transform"
+        >
+          <div className="container flex flex-wrap items-end justify-between gap-6 font-mono text-[10px] tracking-[0.2em] text-muted-foreground border-t border-border pt-4">
+            <Telemetry label="AGENTS_ONLINE" value="2,847" />
+            <Telemetry label="UNITS_FORGED" value="184,302" />
+            <Telemetry label="MATERIALS" value="42" />
+            <Telemetry label="LATENCY" value="12ms" highlight />
+          </div>
+        </motion.div>
       </section>
 
       {/* MARQUEE divider */}
