@@ -124,15 +124,15 @@ const Index = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="flex flex-wrap items-center gap-4 will-change-transform"
+              className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-4 will-change-transform"
             >
               {/* Primary CTA */}
-              <button className="hero-btn-primary group relative rounded-2xl px-7 py-4 font-mono text-sm tracking-widest font-medium text-primary-foreground">
+              <button className="hero-btn-primary group relative rounded-2xl px-7 py-4 font-mono text-sm tracking-widest font-medium text-primary-foreground w-full sm:w-auto flex justify-center items-center">
                 <span className="relative z-10">Explore the Protocol →</span>
               </button>
 
               {/* Secondary CTA */}
-              <button className="hero-btn-secondary rounded-2xl px-7 py-4 font-mono text-sm tracking-widest font-medium text-foreground">
+              <button className="hero-btn-secondary rounded-2xl px-7 py-4 font-mono text-sm tracking-widest font-medium text-foreground w-full sm:w-auto flex justify-center items-center">
                 READ_WHITEPAPER
               </button>
             </motion.div>
@@ -147,7 +147,7 @@ const Index = () => {
           transition={{ duration: 1, delay: 1 }}
           className="absolute bottom-8 left-0 right-0 px-6 z-10 will-change-transform"
         >
-          <div className="container flex flex-wrap items-end justify-between gap-6 font-mono text-[10px] tracking-[0.2em] text-muted-foreground border-t border-border pt-4">
+          <div className="container grid grid-cols-2 md:flex md:flex-wrap md:items-end justify-between gap-6 font-mono text-[10px] tracking-[0.2em] text-muted-foreground border-t border-border pt-4 pb-4 md:pb-0">
             <Telemetry label="AGENTS_ONLINE" value="2,847" />
             <Telemetry label="UNITS_FORGED" value="184,302" />
             <Telemetry label="MATERIALS" value="42" />
@@ -203,7 +203,7 @@ const Index = () => {
               <div className="font-mono text-xs tracking-widest text-primary mb-4">
                 /// READY_TO_WEAVE
               </div>
-              <h2 className="font-display text-5xl md:text-7xl font-bold leading-[0.95] tracking-tight mb-6">
+              <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-[0.95] tracking-tight mb-6">
                 Give your agents <br />
                 <span className="text-glitch">hands.</span>
               </h2>
@@ -220,7 +220,7 @@ const Index = () => {
                 </div>
               </div>
 
-              <button className="hero-btn-primary group relative rounded-2xl px-8 py-4 font-mono text-sm tracking-widest font-medium text-primary-foreground">
+              <button className="hero-btn-primary group relative rounded-2xl px-8 py-4 font-mono text-sm tracking-widest font-medium text-primary-foreground w-full sm:w-auto flex justify-center items-center">
                 <span className="relative z-10">GET_API_KEY →</span>
               </button>
             </div>
@@ -234,7 +234,7 @@ const Index = () => {
             </div>
             
             <div className="flex flex-col gap-6 w-full md:w-auto">
-              <div className="flex justify-between md:justify-end gap-6">
+              <div className="flex flex-wrap justify-between md:justify-end gap-4 md:gap-6">
                 <a href="#" className="hover:text-foreground transition-colors">GITHUB</a>
                 <a href="#" className="hover:text-foreground transition-colors">DOCS</a>
                 <a href="#" className="hover:text-foreground transition-colors">DISCORD</a>
@@ -261,9 +261,9 @@ function Telemetry({
 }) {
   return (
     <div className="flex flex-col gap-1">
-      <span className="text-aluminum-dark">{label}</span>
+      <span className="text-aluminum-dark text-[8px] md:text-[10px]">{label}</span>
       <span
-        className={`font-display text-xl tracking-tight ${
+        className={`font-display text-lg md:text-xl tracking-tight ${
           highlight ? "text-primary" : "text-foreground"
         }`}
       >

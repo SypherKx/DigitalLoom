@@ -21,9 +21,9 @@ export default function Nav() {
             scrolled ? "neu-surface backdrop-blur-xl bg-card/80" : ""
           }`}
         >
-          <a href="#" className="flex items-center gap-3 group">
+          <a href="#" className="flex items-center gap-2 md:gap-3 group">
             <LoomMark />
-            <span className="font-display font-bold tracking-tight text-base">
+            <span className="font-display font-bold tracking-tight text-sm md:text-base hidden sm:block">
               The Digital Loom
             </span>
           </a>
@@ -34,7 +34,7 @@ export default function Nav() {
             <a href="#docs" className="hover:text-foreground transition-colors">DOCS</a>
           </div>
 
-          <button className="hero-btn-secondary rounded-xl px-4 py-2 font-mono text-xs tracking-widest text-foreground">
+          <button className="hero-btn-secondary rounded-lg md:rounded-xl px-3 py-2 md:px-4 md:py-2 font-mono text-[10px] md:text-xs tracking-widest text-foreground">
             REQUEST_ACCESS
           </button>
         </nav>

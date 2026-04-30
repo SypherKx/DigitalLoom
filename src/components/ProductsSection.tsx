@@ -65,7 +65,7 @@ export default function ProductsSection() {
               <span className="w-2 h-2 rounded-full bg-primary animate-ticker" />
               SECTION_03 / CORE_FEATURES
             </div>
-            <h2 className="font-display text-5xl md:text-6xl font-bold leading-[0.95] tracking-tight mb-6">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold leading-[0.95] tracking-tight mb-6">
               Core Features & <br />
               <span className="text-glitch">Use Cases.</span>
             </h2>

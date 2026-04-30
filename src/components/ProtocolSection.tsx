@@ -45,7 +45,7 @@ export default function ProtocolSection() {
             <span className="w-2 h-2 rounded-full bg-primary animate-ticker" />
             SECTION_02 / THE_PROTOCOL
           </div>
-          <h2 className="font-display text-5xl md:text-7xl font-bold leading-[0.95] tracking-tight">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-[0.95] tracking-tight">
             The Protocol <br />
             <span className="text-glitch">Layer.</span>
           </h2>
