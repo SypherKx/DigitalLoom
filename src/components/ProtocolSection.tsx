@@ -67,7 +67,7 @@ export default function ProtocolSection() {
             </div>
           </div>
 
-          <div className="space-y-24 md:space-y-32">
+          <div className="space-y-12 md:space-y-32">
             {steps.map((step, i) => (
               <motion.div
                 key={step.id}
@@ -77,21 +77,21 @@ export default function ProtocolSection() {
                 transition={{ duration: 0.8, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
                 className="relative"
               >
-                <div className="neu-surface rounded-3xl p-8 md:p-10 relative overflow-hidden group">
+                <div className="neu-surface rounded-3xl p-5 sm:p-8 md:p-10 relative overflow-hidden group">
                   <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-primary/5 blur-3xl group-hover:bg-primary/10 transition-colors duration-700" />
 
                   <div className="relative flex flex-col md:flex-row md:items-start gap-6">
                     <div className="flex items-center gap-4 md:flex-col md:items-start">
-                      <div className="font-mono text-7xl md:text-8xl font-bold text-glitch leading-none">
+                      <div className="font-mono text-5xl sm:text-7xl md:text-8xl font-bold text-glitch leading-none">
                         {step.id}
                       </div>
-                      <div className="font-mono text-[10px] tracking-[0.2em] text-aluminum px-3 py-1 rounded-full neu-inset">
+                      <div className="font-mono text-[8px] sm:text-[10px] tracking-[0.2em] text-aluminum px-2 py-1 sm:px-3 rounded-full neu-inset">
                         {step.label}
                       </div>
                     </div>
 
                     <div className="flex-1">
-                      <h3 className="font-display text-3xl md:text-4xl font-semibold mb-3 tracking-tight">
+                      <h3 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold mb-3 tracking-tight">
                         {step.title}
                       </h3>
                       <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-6">
