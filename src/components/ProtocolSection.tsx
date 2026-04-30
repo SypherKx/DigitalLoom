@@ -36,7 +36,7 @@ export default function ProtocolSection() {
   const lineHeight = useTransform(smoothScrollYProgress, [0.1, 0.85], ["0%", "100%"]);
 
   return (
-    <section ref={ref} className="relative py-32 lg:py-48 overflow-hidden">
+    <section ref={ref} className="relative py-16 lg:py-24 overflow-hidden">
       <div className="absolute inset-0 grid-blueprint opacity-30 pointer-events-none" />
 
       <div className="container relative">

@@ -55,7 +55,7 @@ export default function ProductsSection() {
   const ys = [y1, y2, y3];
 
   return (
-    <section ref={ref} className="relative py-32 lg:py-48 overflow-hidden">
+    <section ref={ref} className="relative py-16 lg:py-24 overflow-hidden">
       <div className="container relative z-10">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-start">
           

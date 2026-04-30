@@ -185,7 +185,7 @@ const Index = () => {
       </div>
 
       {/* CTA / Footer */}
-      <section ref={ctaRef} id="docs" className="relative py-32 lg:py-48 overflow-hidden">
+      <section ref={ctaRef} id="docs" className="relative py-16 lg:py-24 overflow-hidden">
         <motion.div 
           style={{ y: ctaBgY }}
           className="absolute inset-0 grid-blueprint opacity-10 pointer-events-none will-change-transform" 
